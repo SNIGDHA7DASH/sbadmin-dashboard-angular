@@ -9,8 +9,29 @@ import { UsercreateComponent } from './usercreate/usercreate.component';
 import { UsereditComponent } from './useredit/useredit.component';
 import { UserlistComponent } from './userlist/userlist.component';
 import { UserviewComponent } from './userview/userview.component';
-
+import { ProductComponent } from './product/product.component';
+import { UserComponent } from './user/user.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 const routes: Routes = [
+  {
+    path:"login",
+    component:LoginComponent
+  } ,
+  {
+    path:"register",
+    component:RegisterComponent
+  } ,
+
+  {
+    path:"product",
+    component:ProductComponent
+  } ,
+  {
+    path:"user",
+    component:UserComponent
+  } ,
+
   {
     path :"" ,
     component: DasboardComponent 

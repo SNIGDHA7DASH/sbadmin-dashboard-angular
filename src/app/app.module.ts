@@ -14,6 +14,10 @@ import { UserviewComponent } from './userview/userview.component';
 import { UsereditComponent } from './useredit/useredit.component';
 import { UserlistComponent } from './userlist/userlist.component';
 import { DasboardComponent } from './dasboard/dasboard.component';
+import { ProductComponent } from './product/product.component';
+import { UserComponent } from './user/user.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { DasboardComponent } from './dasboard/dasboard.component';
     UserviewComponent,
     UsereditComponent,
     UserlistComponent,
-    DasboardComponent
+    DasboardComponent,
+    ProductComponent,
+    UserComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
